@@ -21,6 +21,7 @@ class Person
     # Problem:
     # Will not call the setter method to and notify, or say, that the status
     # has changed!
-    @status = 'offline'
+    # @status = 'offline'
+    self.status = 'offline'
   end
 end
